@@ -1,18 +1,14 @@
 # Blockchain Demo
 A web-based demonstration of blockchain concepts.
 
-[![Blockchain 101 - Demo](https://img.youtube.com/vi/_160oMzblY8/0.jpg)](https://www.youtube.com/watch?v=_160oMzblY8)
-
-This is a very basic visual introduction to the concepts behind a blockchain. We introduce 
-the idea of an immutable ledger using an interactive web demo that is available here:
-
-http://anders.com/blockchain/
+This is a very basic visual introduction to the concepts behind a blockchain. We introduce
+the idea of an immutable ledger using an interactive web demo.
 
 ## Setup
 Get the code:
 
 ```
-git clone https://github.com/anders94/blockchain-demo.git
+git clone https://github.com/facundo-rodriguez-17/blockchain-demo
 ```
 
 Install dependencies:
@@ -27,16 +23,6 @@ Run the server:
 npm start
 ```
 
-OR
-
-```
-./bin/www
-```
-#For windows: if the above command didn't work, use this (make sure you have Node.js installed in your system):
-```
-node ./bin/www      
-```
-
 Point a web browser at the demo:
 
 ```
@@ -48,7 +34,7 @@ http://localhost:3000
 Get the code:
 
 ```
-git clone https://github.com/anders94/blockchain-demo.git
+git clone https://github.com/facundo-rodriguez-17/blockchain-demo
 ```
 
 Run the Docker setup:
@@ -83,10 +69,8 @@ In the production bitcoin blockchain, block `458091` has the hash digest
 ### Public Private Key Demo
 
 The 2nd part of the 101 session:
-* https://github.com/anders94/public-private-key-demo
+* https://github.com/facundo-rodriguez-17/public-private-key-demo
 
 ## Send Thanks
 
-![](public/images/qr.png)
-
-Bitcoin gratefully accepted: `1K3NvcuZzVTueHW1qhkG2Cm3viRkh2EXJp`
+Bitcoin gratefully accepted: `1CxjiLtSBPAYt3vgFmoXrVTegkPTh2D2Rs`
