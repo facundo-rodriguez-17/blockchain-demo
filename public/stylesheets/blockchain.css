@@ -5,8 +5,9 @@ html {
 }
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lato', sans-serif;
   height: 100%;
+  background-color: #d8d9e2
 }
 
 body > .container {
@@ -30,17 +31,52 @@ input {
 }
 
 .well-success {
-  background: rgb(223, 240, 216);
+  background: #3eb393;
 }
 
 .well-error {
-  background: rgb(250, 220, 220);
+  background: #e44747;
 }
 
-.github-ribbon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
-  z-index: 20000;
+.navbar-inverse {
+    background: #d8d9e2;
+    border: 0px;
+    font-weight: bold;
+}
+
+.nav>li.active {
+    border-left: 3px solid #7908ff;
+    color: #373744;
+    text-shadow: none;
+}
+
+.nav>li,
+.navbar-inverse .navbar-nav>li>a {
+    color: #A5A7AF;
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #A5A7AF;
+    background: none;
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: #d8d9e2;
+    color: #373744;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand:hover {
+    color: #373744;
 }
